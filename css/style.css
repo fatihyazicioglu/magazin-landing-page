@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body{
-    background-color: rgb(246, 237, 228);
+    background-color: rgb(241, 232, 212);
+    font-family: 'Roboto', sans-serif;
 }
-.navbar{
+
+
+body article{
+    display: flex;
+}
+div{
+    display: flex;
+    justify-items: center;
+    
+}
+.language{
     display: flex;
     align-items: center;
     background-color: rgba(re0d, green, blue, alpha);
@@ -10,7 +22,7 @@ body{
     border: 1px solid black;
     display: flex;
     justify-content: center;
-    margin: 2px;
+    margin: 2%;
     border-radius: 50%;
     width: 2rem;
     align-items: center;
@@ -21,4 +33,39 @@ body{
 .EN:hover , .DE:hover {
     background-color: black;
     color: whitesmoke;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: row;
+}
+img{
+    height: 70vh;
+    width: 30vw;
+}
+.main .title {
+flex-direction: column;
+font-family: 'Roboto', sans-serif;
+}
+.p1 , .p2{
+    font-size: 50px;
+}
+.p1{
+    font-weight: bolder;
+}
+.button{
+    align-items: center;
+    font-weight: bolder;
+    font-size:larger;
+    border-radius: 50%;
+}
+.discover {
+    align-content: center;
+    text-transform: none;
+    align-items: center;
+}
+button{
+    background-color: black;
+    tex
 }
