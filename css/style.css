@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(246, 237, 228);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(re0d, green, blue, alpha);
+}
+.EN , .DE{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 50%;
+    width: 2rem;
+    align-items: center;
+    height: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.EN:hover , .DE:hover {
+    background-color: black;
+    color: whitesmoke;
+}
