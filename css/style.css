@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     background-color: rgb(241, 232, 212);
     font-family: 'Roboto', sans-serif;
@@ -47,6 +48,7 @@ div{
 img{
     height: 70vh;
     width: 30vw;
+    
 }
 .main .title {
 flex-direction: column;
@@ -62,7 +64,6 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     font-weight: bolder;
     font-size:larger;
-    border-radius: 50%;
 }
 .discover {
     align-content: center;
@@ -71,15 +72,16 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
     padding-top: 3rem;
 }
+.discover p{
+    box-shadow: 10px 5px 5px rgb(211, 207, 185);
+    border-radius: 3em;
+    font-weight: bolder;
+}
 .button a{
-    border: 6px solid black;
-    border-radius: 20%;
-    background-color: rgb(19, 18, 18);
+    border: 6px solid rgb(75, 72, 72);
+    border-radius: 10rem;
+    background-color: rgb(68, 64, 64);
     text-decoration: none;
     color: whitesmoke;
-    
-
-    
-    
-    
+    box-shadow: 10px 5px 5px rgb(187, 181, 151);    
 }
