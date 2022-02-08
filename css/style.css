@@ -63,9 +63,19 @@ font-family: 'Roboto', sans-serif;
 .discover {
     align-content: center;
     text-transform: none;
-    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 3rem;
 }
-button{
-    background-color: black;
+.button a{
+    border: 6px solid black;
+    border-radius: 20%;
+    background-color: rgb(19, 18, 18);
+    text-decoration: none;
+    color: whitesmoke;
+    
+
+    
+    
     
 }
