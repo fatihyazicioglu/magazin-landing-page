@@ -109,7 +109,9 @@ font-family: 'Roboto', sans-serif;
 @keyframes arrow-goright{
     0%{
         
-        /* left: 0; */
+        left: 0;
+        color: #000;
+        position: relative;
     }
     25%{
         left: 1rem;
