@@ -101,3 +101,36 @@ font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     box-shadow: 10px 5px 5px rgb(187, 181, 151);    
 }
+.button .fa-arrow-right{
+    animation-name: arrow-goright;
+    animation-duration: 3s;
+    transition: 1s ease-in;
+}
+@keyframes arrow-goright{
+    0%{
+        
+        /* left: 0; */
+    }
+    25%{
+        left: 1rem;
+        color: #000;
+        position: relative;
+
+    }
+    50%{
+        left:2rem;
+        color: #000;
+        position: relative;
+    }
+    75%{
+        left:3rem;
+        color: #000;
+        position: relative;
+    }
+    100%{
+        position: relative;
+        left: 3rem;
+        color: #000;
+        /* height: 10vh; */
+    }
+}
