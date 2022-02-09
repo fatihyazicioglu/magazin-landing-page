@@ -71,11 +71,27 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
     font-weight: bold;
     padding-top: 3rem;
+    
 }
+
 .discover p{
-    box-shadow: 10px 5px 5px rgb(211, 207, 185);
+    box-shadow: 10px 5px 5px rgb(148, 149, 156);
     border-radius: 3em;
     font-weight: bolder;
+    animation-name: arrow-godown;
+    animation-duration: 3s;
+    transition: 1s ease-in;
+}
+@keyframes arrow-godown{
+    0%{
+        
+        height: 0;
+    }
+    100%{
+        padding: 2vh 2vh;
+        
+        /* height: 10vh; */
+    }
 }
 .button a{
     border: 6px solid rgb(75, 72, 72);
