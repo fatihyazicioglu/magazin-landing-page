@@ -1,6 +1,6 @@
 # Magazine Landing Page
 
-For this exercise we'll create the landing page shown in the reference image below -
+ createing the landing page shown in the reference image below -
 
 ![reference image](/assets/reference-image.png)
 
@@ -11,4 +11,4 @@ For this exercise we'll create the landing page shown in the reference image bel
 > - Use `:hover` effects where you feel necessary
 > - Try to get it **pixel perfect** 😉
 
-Happy coding ☘️
+
